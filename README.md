@@ -5,4 +5,4 @@ Não foi alterado nada além de fechamento do scanner do getAlunos e retirado um
 ### 2. Prova Com MVC acabei fazendo por que sobrou muito tempo
 
 ## Observação
-Rode o programa na pasta da Prova que deseja rodar, não na pasta "ProvaFinalJava"
+Rode o programa na pasta da Prova que deseja rodar, não na pasta "A1-35910691"
