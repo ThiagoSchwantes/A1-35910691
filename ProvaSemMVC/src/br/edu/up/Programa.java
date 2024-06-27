@@ -28,8 +28,7 @@ public class Programa {
 
             File arquivoLeitura = new File(localizacao);
             Scanner leitor = new Scanner(arquivoLeitura);
-
-            String header = leitor.nextLine();            
+            leitor.nextLine();            
 
             while (leitor.hasNextLine()) {
                 String linha = leitor.nextLine();
@@ -43,6 +42,8 @@ public class Programa {
 
                 alunos.add(aluno);
             }
+
+            leitor.close();
 
         }catch(Exception e){
             System.out.println("Erro ao encontrar o caminho do arquivo aluno.csv");
